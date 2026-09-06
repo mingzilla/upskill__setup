@@ -1,0 +1,14 @@
+{
+  "users": {
+    "mingzilla__public_skills": {
+      "name": "ming",
+      "folder": "mingzilla__public_skills",
+      "repo": "https://github.com/mingzilla/public_skills.git"
+    },
+    "haimei__public_skills": {
+      "name": "may",
+      "folder": "haimei__public_skills",
+      "repo": "https://github.com/haimei-zhang/public_skills.git"
+    }
+  }
+}

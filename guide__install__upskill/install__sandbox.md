@@ -15,7 +15,26 @@ https://github.com/mingzilla/upskill__setup/blob/main/address_books/address_book
 
 **Stop and wait**. If an LLM is executing this guide, notify the user to pause until Ming confirms the address book setup is complete.
 
-## Step 3: Run Installation Script
+## Step 3: GitHub CLI and log in
+
+Your AI tool uses the GitHub CLI to push your skills, so it must be installed and logged in. Install
+`gh` if it is not there:
+
+| OS | Install command |
+|---|---|
+| Windows | `winget install --id GitHub.cli` |
+| macOS | `brew install gh` |
+| Debian / Ubuntu / WSL | `sudo apt update && sudo apt install gh` |
+
+If your package manager lacks it, follow https://cli.github.com
+
+Close and reopen the terminal after installing so `gh` is on your PATH, then log in:
+
+```commandline
+gh auth login --hostname github.com --git-protocol https
+```
+
+## Step 4: Run Installation Script
 
 Execute the Linux / WSL sandbox installation script:
 
@@ -30,6 +49,6 @@ For Windows installation, use the below:
 powershell -ExecutionPolicy Bypass -c "& ([scriptblock]::Create((irm https://raw.githubusercontent.com/mingzilla/upskill/prod/.install/upskill__install.ps1))) -AddressBook 'https://raw.githubusercontent.com/mingzilla/upskill__setup/main/address_books/address_book__sandbox.json'"
 ```
 
-## Step 4: Sharing and Receiving
+## Step 5: Sharing and Receiving
 
 Bypass permission is required

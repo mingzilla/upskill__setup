@@ -8,9 +8,16 @@ https://github.com/mingzilla/upskill/blob/prod/.install/guide__create_public_ski
 - Create two repositories: `public_skills` and `private_skills`
 - Share the `public_skills` repository with Ming
 
-## Step 2: Github Log In
+## Step 2: GitHub CLI and log in
 
-Ask Claude Desktop or Codex to do the below:
+Your AI tool uses the GitHub CLI to push your skills, so it must be installed and logged in. If `gh`
+is not installed, install it:
+
+```commandline
+winget install --id GitHub.cli
+```
+
+Close and reopen the terminal so `gh` is on your PATH, then ask Claude Desktop or Codex to log in:
 
 ```commandline
 gh auth login --hostname github.com --git-protocol https

@@ -24,6 +24,12 @@ curl -fsSL https://raw.githubusercontent.com/mingzilla/upskill/prod/.install/ups
   | UP_SKILL_ADDRESS_BOOK=https://raw.githubusercontent.com/mingzilla/upskill__setup/main/address_books/address_book__sandbox.json bash
 ```
 
+For Windows installation, use the below:
+
+```powershell
+powershell -ExecutionPolicy Bypass -c "& ([scriptblock]::Create((irm https://raw.githubusercontent.com/mingzilla/upskill/prod/.install/upskill__install.ps1))) -AddressBook 'https://raw.githubusercontent.com/mingzilla/upskill__setup/main/address_books/address_book__sandbox.json'"
+```
+
 ## Step 4: Sharing and Receiving
 
 Bypass permission is required

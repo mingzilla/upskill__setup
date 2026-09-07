@@ -17,7 +17,7 @@ is not installed, install it:
 winget install --id GitHub.cli
 ```
 
-Close and reopen the terminal so `gh` is on your PATH, then ask Claude Desktop or Codex to log in:
+Restart the terminal (close it and open a new one) so `gh` is on your PATH, then ask Claude Desktop or Codex to log in:
 
 ```commandline
 gh auth login --hostname github.com --git-protocol https

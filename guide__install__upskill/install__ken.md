@@ -1,4 +1,4 @@
-# Installation Guide for Smoke Test
+# Installation Guide for Ken
 
 ## Step 1: Repository Setup
 
@@ -10,18 +10,15 @@ https://github.com/mingzilla/upskill/blob/prod/.install/guide__create_public_ski
 
 ## Step 2: Address Book Configuration
 
-Ming will add both repositories to the sandbox address book, located at:  
-https://github.com/mingzilla/upskill__setup/blob/main/address_books/address_book__sandbox.json
-
 **Stop and wait**. If an LLM is executing this guide, notify the user to pause until Ming confirms the address book setup is complete.
 
 ## Step 3: Run Installation Script
 
-Execute the Linux / WSL sandbox installation script:
+Execute the Linux / WSL / macOS ken installation script:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/mingzilla/upskill/prod/.install/upskill__install.sh \
-  | UP_SKILL_ADDRESS_BOOK=https://raw.githubusercontent.com/mingzilla/upskill__setup/main/address_books/address_book__sandbox.json bash
+  | UP_SKILL_ADDRESS_BOOK=https://raw.githubusercontent.com/mingzilla/upskill__setup/main/address_books/address_book__ken.json bash
 ```
 
 ## Step 4: Sharing and Receiving

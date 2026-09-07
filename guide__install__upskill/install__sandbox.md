@@ -17,3 +17,7 @@ https://github.com/mingzilla/upskill__setup/blob/main/address_books/address_book
 
 Execute the Linux sandbox installation script:  
 https://github.com/mingzilla/upskill/blob/prod/.install/install/custom/action__install__sandbox__linux.md
+
+## Step 4: Sharing and Receiving
+
+Bypass permission is required

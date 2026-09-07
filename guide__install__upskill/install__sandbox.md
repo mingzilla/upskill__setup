@@ -13,6 +13,8 @@ https://github.com/mingzilla/upskill/blob/prod/.install/guide__create_public_ski
 Ming will add both repositories to the sandbox address book, located at:  
 https://github.com/mingzilla/upskill__setup/blob/main/address_books/address_book__sandbox.json
 
+**Stop and wait**. If an LLM is executing this guide, notify the user to pause until Ming confirms the address book setup is complete.
+
 ## Step 3: Run Installation Script
 
 Execute the Linux sandbox installation script:  
